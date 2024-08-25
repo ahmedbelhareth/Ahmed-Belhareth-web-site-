@@ -16,7 +16,7 @@
       "zip": "2017"
     },
     "website": "https://ahmed-belhareth.netlify.app",
-    "resumedownload":"Ahmed Belhareth portfolio",
+    "resumedownload":"images/Ahmed-Belhareth-CV.pdf",
     "social":[
       {
         "name":"facebook",
@@ -52,7 +52,7 @@
       
       {
         "school":"Tek-Up",
-        "degree":"Second class",
+        "degree":"Second year",
         "graduated":"2024",
         "description":"Data"
       },
