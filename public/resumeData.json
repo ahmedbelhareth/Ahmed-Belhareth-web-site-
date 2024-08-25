@@ -1,10 +1,10 @@
 {
   "main": {
     "name":"Ahmed Belhareth",
-    "description":"I like building things. I am a student in second year computer science, ISI-Ariana, and the president and founder of codex junior entreprise association .",
+    "description": "I am passionate about building things and making a positive impact on every project with creativity and enthusiasm. Currently, I am a software development analyst at Linedata Tunisia while finalizing my engineering studies at Tekup, where I am in my second year. I am also into fitness and bodybuilding, enjoy playing basketball, and have some knowledge in marketing and graphic technologies.",
     "image":"ahmed.png",
-    "bio":"My name is Ahmed Belhareth. Im from Tunisia where Im in second classe computer sience [ISI ARIANA]. I like watching movies, at least once a month. I play basketball on weekends and chess whenever I get time. I’m particularly strong in design graphic and video editing also in web development frontend . If anyone requires support in these areas, I’ll be glad to help. I look forward to meeting each one of you in the coming days..",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+   "bio": "My name is Ahmed Belhareth. I’m from Tunisia and currently in my second year of engineering studies at Tekup, specializing in computer science. I am also working as a software development analyst at Linedata Tunisia. I enjoy watching movies regularly, playing basketball on weekends, hitting the gym for bodybuilding, and challenging myself with chess when I have time. I have strong skills in graphic design, video editing, and front-end web development. I’m always happy to offer support in these areas if needed. I look forward to connecting with everyone soon."
+   ,"contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "ahmedbelhareth04@gmail.com",
     "phone": "+216 54-504-138",
     "github":"https://github.com/ahmedbelhareth",
@@ -16,7 +16,7 @@
       "zip": "2017"
     },
     "website": "https://ahmed-belhareth.netlify.app",
-    "resumedownload":"First portfolio",
+    "resumedownload":"Ahmed Belhareth portfolio",
     "social":[
       {
         "name":"facebook",
@@ -48,14 +48,65 @@
   "resume":{
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
+ 
+      
+      {
+        "school":"Tek-Up",
+        "degree":"Second class",
+        "graduated":"2023",
+        "description":"Data"
+      },
       {
         "school":"Higher Institute of Computer Science Ariana",
-        "degree":"Second class",
-        "graduated":"201-2022",
-        "description":"im in second class studing computer science also the president of Codex Junior Entreprise"
+        "graduated":"2023",
+        "description":"computer science"
+      },
+      {
+        "school": "High School Bardo Tunisie",
+        "degree": "Baccalaureate in Computer Science",
+        "graduated": "2019",
+        "description": "Specialized in Computer Science"
       }
     ],
-    "work":[
+   "work": [
+  {
+    "company": "Linedata Tunisie",
+    "title": "Software Development Analyst",
+    "years": "2023",
+    "description": "Currently, I am working as a software development analyst on a project called Nile. This project is linked to an external project named Chorus, which serves more than 9 clients and focuses on distributing financial information such as bond prices, rates, and coupons to client servers. This data primarily relates to financial products for clients in the insurance sector. The project is extensive and relies on legacy technologies like Sybase, Python, Java, as well as networking tools for server communication via SSH and MFT. Initially, I studied the documentation to understand the legacy solutions before transitioning to more modern technologies. I migrated Sybase components to Spring Boot and Java 17, adapting the old stored procedures to Java SQL. Additionally, I created temporary tables to preserve the old code while integrating a new, more innovative architecture. Furthermore, I developed JSON services to be consumed by a front-end interface built with Angular. Simultaneously, I am mentoring an intern who is working on the front-end development with Angular. My daily tasks involve maintenance, fixes, and implementing enhancements for managing the distribution of financial data. There are two types of distributions: dynamic distribution on client demand and nightly distribution of bond prices, rates, coupons, etc. Every morning, I verify the nightly distribution and correct any anomalies on the servers to ensure the smooth distribution of data, such as French Treasury bills (BTF), trading volumes, and so forth. I manage all environments: development, integration (testing), and production."
+    , 
+    "highlights": [
+      "Software Development Analyst on the Nile project, focused on distributing financial information for clients in the insurance sector.",
+      "The project is linked to an external initiative named Chorus, serving over 9 clients.",
+      "Expertise in Sybase, Python, Java, SSH, MFT, stored procedures, SH scripts, and SQL.",
+      "Led the migration from legacy Sybase technologies to modern solutions using Spring Boot and Java 17.",
+      "Developed JSON-based services for front-end integration with Angular.",
+      "Mentored an intern in developing Angular interfaces.",
+      "Managed both dynamic and nightly distributions of financial data (bonds, rates, BTF).",
+      "Responsible for morning checks to verify nightly distributions.",
+      "Oversee all environments: development, integration (testing), and production."
+    ]
+  },
+
+
+      {
+        "company":"Neocortex Technologies",
+        "title":" Final study project-Full-stack Developer Angular spring",
+        "years":"01/02/2023-01/06/2023",
+"description": "I completed my final year project at Neocortex Technologie as a Spring Boot Angular developer. The project was designed for sports associations and included a wide range of features, such as user management with roles, Spring Security implementation, post management with reactions and comments, a ranking system where users earn points and levels, match management with ticket booking, and store management where each store could be a collaborator within our application. I also integrated several APIs, including messaging services and an image upload service, using an innovative method where only file paths are stored in the database."
+},
+      {
+        "company":"Neocortex Technologies",
+        "title":"Summer internship-Full-stack Developer Angular FireBase ",
+        "years":"01/07/2022-01/10/2022",
+        "description":"restauration app : the realization of a Neo2eat catering application with an admin Dashboard "
+      },
+      {
+        "company":"Codex Junior Entreprise",
+        "title":"President and founder association ",
+        "years":"2018-2020",
+        "description":"Codex Junior Entreprise is the junior enterprise of the Higher Institute of Computer Science founded in 2018, managed by students and which operates on the model of a student company. It allows students to acquire professional experience during their studies through the provision of services such as mobile desktop web development for external clients."
+      },
       {
         "company":"Freelancer.com",
         "title":"Designer and video editor ",
@@ -71,28 +122,22 @@
     ],
     "associative": [
       {
-        "company": "Build inspire lead",
-        "title": "BIL KHAZNADAR ",
-        "years": "2016 ",
+        "company": "Codex Junior Entreprise",
+        "title": "President ",
+        "years": "2021-2022 ",
+        "description": "president who manages departments such as marketing projects, business development, is the face to face of customers and the codex porter"
+      },
+      {
+        "company": "Junior Entreprise of tunisia",
+        "title": "OC ",
+        "years": "2020-2021 ",
+        "description": "membre organization team Jobs and JTED"
+      },
+      {
+        "company": "Codex Junior Entreprise",
+        "title": "Membre",
+        "years": "2020-2021 ",
         "description": "membre communication"
-      },
-      {
-        "company": "Interact Club Tunis Atlas",
-        "title": "ITCA",
-        "years": "2017",
-        "description": "Vice President"
-      },
-      {
-        "company": "JCI",
-        "title": "Khaznadar junior",
-        "years": "2017",
-        "description": "Founder President"
-      },
-      {
-        "company": "JCI",
-        "title": "Khaznadar ",
-        "years": "2018",
-        "description": "membre sponsoring"
       },
       {
         "company": "Tunivision",
@@ -101,23 +146,33 @@
         "description": "Humain ressource"
       },
       {
-        "company": "Junior Entreprise Codex",
-        "title": "Codex ",
-        "years": "2020",
-        "description": "member marketing"
+        "company": "JCI",
+        "title": "Khaznadar junior",
+        "years": "2018",
+        "description": "Founder President"
       },
       {
-        "company": "Junior Entreprise of Tunisia ",
-        "title": "JET",
-        "years": "2020",
-        "description": "OC"
+        "company": "JCI",
+        "title": "Khaznadar ",
+        "years": "2017",
+        "description": "membre sponsoring"
       },
       {
-        "company": "Junior Entreprise Codex ",
-        "title": "Codex",
-        "years": "2022",
-        "description": "President"
+        "company": "Interact Club Tunis Atlas",
+        "title": "ITCA",
+        "years": "2017",
+        "description": "Vice President"
+      },
+      {
+        "company": "Build inspire lead",
+        "title": "BIL KHAZNADAR ",
+        "years": "2016 ",
+        "description": "membre communication"
       }
+
+    
+   
+      
     ],
     "Training": [
       {
@@ -177,13 +232,32 @@
     ],
     "skills":[
       {
-        "name":"Python",
-        "level":"40%"
+        "name":"Spring boot",
+        "level":"60%"
       },
       {
         "name":"Java",
-        "level":"55%"
+        "level":"60%"
       },
+      {
+        "name":"Angular",
+        "level":"60%"
+      },
+      {
+        "name":"SQL",
+        "level":"80%"
+      },
+      {
+        "name":"Sybase",
+        "level":"70%"
+      },
+     
+    
+      {
+        "name":"Python",
+        "level":"50%"
+      },
+      
       {
         "name":"ReactJs",
         "level":"60%"
@@ -196,14 +270,7 @@
         "name":"AngularJS",
         "level":"40%"
       },
-      {
-        "name":"Angular",
-        "level":"40%"
-      },
-      {
-        "name":"Spring boot",
-        "level":"30%"
-      },
+    
       {
         "name":"Illustrator",
         "level":"90"
