@@ -1,29 +1,69 @@
-# React Nice Resume :page_with_curl:
+# Ahmed Belhareth — Portfolio
 
-### [LIVE DEMO](https://nordicgiant2.github.io/react-nice-resume-page/index.html)
+Personal portfolio of **Ahmed Belhareth** — Senior Software Engineer specialized in **Data, AI & Agents**.
 
-![img](https://github.com/nordicgiant2/react-nice-resume/blob/master/public/images/img.jpg?raw=true)
+🔗 **Live:** [ahmed-belhareth-cv.netlify.app](https://ahmed-belhareth-cv.netlify.app)
 
-# About [`particles-bg`](https://github.com/lindelof/particles-bg) Library
-#### This project uses the react particle background component library [https://github.com/lindelof/particles-bg](https://github.com/lindelof/particles-bg). It's very simple. Anyone can be a Musketeer with it.
+A modern, animated single-page portfolio built from scratch. Fully bilingual (🇫🇷 French / 🇬🇧 English) with a live language toggle.
 
-![img](https://github.com/lindelof/particles-bg/raw/master/image/03.jpg?raw=true)
+## ✨ Features
 
-# Description
-This project forks from [https://github.com/tbakerx/react-resume-template](https://github.com/tbakerx/react-resume-template), I made some modifications and adjustments, thanks to the [author](https://github.com/tbakerx).
+- **Bilingual** — instant FR/EN switch, preference saved to `localStorage`
+- **Animated** — constellation particle canvas, scroll-reveal sections, scroll progress bar
+- **Responsive** — mobile-first, works from 320px to ultrawide
+- **Accessible** — respects `prefers-reduced-motion`, semantic markup, keyboard-friendly nav
+- **Fast** — Vite build, ~100 KB gzipped JS
+- Sections: Hero · About · Skills · Experience (timeline) · Projects · Education · Languages · Leadership · Contact
 
-![img](https://github.com/nordicgiant2/react-nice-resume/blob/master/public/images/img2.jpg?raw=true)
+## 🛠️ Tech Stack
 
-# Run Project
-### 1. Clone the project
+| Layer | Tech |
+|---|---|
+| Framework | React 18 |
+| Build | Vite 6 |
+| Styling | Tailwind CSS 3 |
+| Animation | Framer Motion 11 + custom Canvas |
+| Icons | lucide-react |
+| Hosting | Netlify |
 
-### 2. Run the project
-```shell
-npm i
-npm start
+## 🚀 Local development
+
+```bash
+npm install      # install dependencies
+npm run dev      # start dev server (http://localhost:5173)
+npm run build    # production build → dist/
+npm run preview  # preview the production build
 ```
 
-### 3. Build
-```shell
+## 📦 Deploy (Netlify)
+
+The repo ships with `netlify.toml` (build command `npm run build`, publish `dist`, SPA fallback + security headers). Connect the repo to Netlify or run:
+
+```bash
 npm run build
+netlify deploy --prod --dir=dist
 ```
+
+## 📁 Structure
+
+```
+src/
+├── main.jsx             # entry + LangProvider
+├── App.jsx              # layout + scroll progress
+├── index.css            # Tailwind + design tokens
+├── data/
+│   ├── content.js       # ALL content, bilingual (single source of truth)
+│   └── lang.jsx         # language context
+└── components/
+    ├── Nav.jsx  Hero.jsx  About.jsx  Skills.jsx
+    ├── Experience.jsx  Projects.jsx  Education.jsx
+    ├── Contact.jsx  Footer.jsx
+    ├── Reveal.jsx           # scroll-reveal wrapper
+    └── ParticleField.jsx    # constellation canvas
+```
+
+To update content, edit **`src/data/content.js`** — every string exists in both `fr` and `en`.
+
+---
+
+© 2026 Ahmed Belhareth

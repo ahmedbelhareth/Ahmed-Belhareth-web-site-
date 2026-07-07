@@ -1,52 +1,25 @@
 {
-  "name": "reactniceresume",
-  "version": "0.1.0",
+  "name": "ahmed-belhareth-portfolio",
+  "version": "2.0.0",
   "private": true,
-  "homepage": "./",
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "anix": "^1.3.6",
-    "jquery": "^3.6.0",
-    "particles-bg": "^2.5.5",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-ga": "^3.3.0",
-    "react-reveal": "^1.2.2",
-    "react-scripts": "^5.0.1",
-    "react-zmage": "^0.8.5-beta.36",
-    "web-vitals": "^1.0.1"
-  },
+  "type": "module",
+  "description": "Personal portfolio of Ahmed Belhareth — Senior Software Engineer | Data, AI & Agents",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "framer-motion": "^11.15.0",
+    "lucide-react": "^0.469.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@babel/preset-env": "^7.25.4",
-    "@babel/preset-react": "^7.24.7",
-    "chokidar": "^3.5.1"
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.7"
   }
 }

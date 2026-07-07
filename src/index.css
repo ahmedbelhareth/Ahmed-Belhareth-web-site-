@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-ink-950 text-slate-300 font-sans antialiased;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    @apply bg-teal-500/30 text-white;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-ink-950;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-ink-700 rounded-full;
+    border: 2px solid #05070d;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-teal-500/60;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-teal-400 via-electric-400 to-violet-400 bg-clip-text text-transparent;
+  }
+
+  .glass {
+    @apply border border-white/10 bg-white/[0.03] backdrop-blur-md;
+  }
+
+  .glass-hover {
+    @apply transition-all duration-300 hover:border-teal-400/40 hover:bg-white/[0.06];
+  }
+
+  .section-label {
+    @apply mb-3 inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.25em] text-teal-400;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5 text-sm text-slate-300 transition-colors hover:border-teal-400/40 hover:text-white;
+  }
+}
+
+/* Grid backdrop */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+}
+
+.glow-teal {
+  box-shadow: 0 0 0 1px rgba(45, 212, 191, 0.1), 0 20px 60px -20px rgba(45, 212, 191, 0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
