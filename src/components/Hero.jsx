@@ -144,9 +144,9 @@ export default function Hero() {
           <div className="relative animate-float overflow-hidden rounded-[1.75rem] border border-white/10 bg-ink-800/60 glow-teal">
             <div className="aspect-[4/4.4] overflow-hidden">
               <img
-                src="/ahmed.png"
+                src="/ahmed.jpg"
                 alt="Ahmed Belhareth"
-                className="h-full w-full scale-105 object-cover object-top"
+                className="h-full w-full object-cover object-center"
                 loading="eager"
               />
             </div>
